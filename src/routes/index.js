@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
-import TrelloBoard from "../components/TrelloBoard";
+import TrelloBoard from "../components/TrelloBoard/TrelloBoard";
 import Home from "../components/Home";
 
 const AppRouter = () => {

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Board Thumbnail Component Board Thumbnail snapshot 1`] = `
+<div
+  className="sc-bdVaJa OyGdR"
+>
+  <h4
+    className="sc-bwzfXH KUmQF"
+    data-testid="title"
+  />
+</div>
+`;

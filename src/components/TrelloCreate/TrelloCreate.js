@@ -1,11 +1,11 @@
 import React from "react";
 import Icon from "@material-ui/core/Icon";
-import TrelloButton from "./TrelloButton";
+import TrelloButton from "../TrelloButton/TrelloButton";
 import { connect } from "react-redux";
-import { addList, addCard } from "../actions";
+import { addList, addCard } from "../../actions";
 import styled from "styled-components";
-import TrelloForm from "./TrelloForm";
-import TrelloOpenForm from "./TrelloOpenForm";
+import TrelloForm from "../TrelloForm/TrelloForm";
+import TrelloOpenForm from "../TrelloOpenForm/TrelloOpenForm";
 
 class TrelloCreate extends React.PureComponent {
   state = {

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import TrelloCard from "./TrelloCard";
-import TrelloCreate from "./TrelloCreate";
+import TrelloCard from "../TrelloCard/TrelloCard";
+import TrelloCreate from "../TrelloCreate/TrelloCreate";
 import { Droppable, Draggable } from "react-beautiful-dnd";
 import styled from "styled-components";
 import { connect } from "react-redux";
-import { editTitle, deleteList } from "../actions";
+import { editTitle, deleteList } from "../../actions";
 import Icon from "@material-ui/core/Icon";
 
 const ListContainer = styled.div`

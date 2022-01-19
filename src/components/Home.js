@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { addBoard } from "../actions";
-import BoardThumbnail from "./BoardThumbnail";
+import BoardThumbnail from "./BoardThumbnail/BoardThumbnail";
 
 const Thumbnails = styled.div`
   flex: 1;

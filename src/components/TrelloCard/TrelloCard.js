@@ -5,10 +5,10 @@ import CardContent from "@material-ui/core/CardContent";
 import { Draggable } from "react-beautiful-dnd";
 import styled from "styled-components";
 import Icon from "@material-ui/core/Icon";
-import TrelloForm from "./TrelloForm";
-import { editCard, deleteCard } from "../actions";
+import TrelloForm from "../TrelloForm/TrelloForm";
+import { editCard, deleteCard } from "../../actions";
 import { connect } from "react-redux";
-import TrelloButton from "./TrelloButton";
+import TrelloButton from "../TrelloButton/TrelloButton";
 
 const CardContainer = styled.div`
   margin: 0 0 8px 0;

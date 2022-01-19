@@ -1,12 +1,12 @@
 import React, { PureComponent } from "react";
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import TrelloList from "./TrelloList";
+import TrelloList from "../TrelloList/TrelloList"
 import { connect } from "react-redux";
-import TrelloCreate from "./TrelloCreate";
+import TrelloCreate from "../TrelloCreate/TrelloCreate";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
 import styled from "styled-components";
-import { sort, setActiveBoard } from "../actions";
+import { sort, setActiveBoard } from "../../actions";
 import { Link } from "react-router-dom";
 
 const ListsContainer = styled.div`

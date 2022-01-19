@@ -22,7 +22,7 @@ const Title = styled.h4`
 const BoardThumbnail = ({ title }) => {
   return (
     <Thumbnail>
-      <Title>{title}</Title>
+      <Title data-testid="title">{title}</Title>
     </Thumbnail>
   );
 };
